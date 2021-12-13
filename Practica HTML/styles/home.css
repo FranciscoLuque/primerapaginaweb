@@ -1,0 +1,39 @@
+body {
+    font-family:"Roboto", sans-serif;
+}
+h1{
+    color: #63bfec;
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-right: 350px;
+    border-left: 8px solid #63bfec;
+    padding-left: 10px; 
+}
+.articulo_software h1{
+    color: #63bfec;
+    font-size: 18px;
+}
+.articulo_software p{
+   margin-left: 20px;
+  padding-right: 300px;
+}
+.imagenfondo{
+    border-radius: 15px;
+    width: 400px;
+    float: right;
+    margin-right: 130px;
+}
+.div_tipos{
+    display: inline-block;
+    margin-left: 30px;
+}
+.sub_tipos{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.sub_tipos li{
+    margin-top: 8px;
+}

@@ -1,0 +1,94 @@
+body {
+    font-family:"Roboto", sans-serif;
+}
+h1{
+    color: #63bfec;
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-right: 350px;
+    border-left: 8px solid #63bfec;
+    padding-left: 10px; 
+}
+
+/*=================================================
+--------------------Ofimatica----------------------
+==================================================*/
+
+.img_ofimatica{
+    width: 400px;
+    float: right;
+}
+.instalacion{
+   display: inline-block;
+}
+.instalacion a{
+ text-decoration:none;
+ margin: auto;
+ color: rgb(255, 255, 255);
+}
+.instalacion a:hover{
+    color: #000000;
+}
+.listsoftware{
+margin-top:35px;
+}
+.listsoftware li{
+ margin-top: 6px;
+}
+#OS{
+ text-align: center ;
+ margin-right: 350px;
+}
+#OS li{
+display: inline-block;;
+background-color:#63bfec;   
+padding: 10px;
+border-radius: 20px;
+margin:20px 10px 0px 0px;
+}
+.comparativa{
+ border-collapse: collapse;
+ width: 100%;
+ font-size: 0.9em;
+}
+.comparativa td{
+ color:black;
+ padding: 15px 10px;
+ border-bottom: 1px solid rgb(206, 206, 206);
+ margin-bottom: 20px;
+ border-right: solid 1px #63bfec;
+}
+.fila1 td{
+    color: #63bfec;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.suits{
+    font-weight: bold;
+}
+/*=================================================
+----------------------Windows----------------------
+==================================================*/
+.office{
+width: 60%;
+margin:40px auto 40px auto;
+border: 3px solid  #63bfec;
+display:block;
+}
+.office3{
+    width:  4 0%;
+}
+
+/*=================================================
+----------------------Linux-----------------------
+==================================================*/
+.wps_img{
+    width: 500px;
+    margin:40px auto 40px auto;
+    border: 3px solid #63bfec;
+    display:block;
+}
