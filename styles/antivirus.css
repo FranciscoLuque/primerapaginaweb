@@ -1,0 +1,90 @@
+body {
+    font-family:"Roboto", sans-serif;
+}
+h1{
+    color: #63bfec;
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-right: 350px;
+    border-left: 8px solid #63bfec;
+    padding-left: 10px; 
+}
+/*========================================================
+--------------------------Antiviruz-----------------------
+=========================================================*/
+.virus_img img{
+ width: 400px;
+ border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+ box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+#OS{
+    text-align: center ;
+    margin-right: 350px;
+   }
+#OS li{
+display: inline-block;;
+background-color:#63bfec;   
+padding: 10px;
+border-radius: 20px;
+margin:20px 10px 0px 0px;
+}
+#OS a{
+    text-decoration:none;
+    color:white;
+}
+#OS a:hover{
+    color:black
+}
+.comparativa_antivirus{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+   }
+   table{
+    margin-top: 50px;
+   }
+   .comparativa_antivirus td{
+    color:black;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    margin-bottom: 20px;
+    text-align: center;
+    border-right: solid 1px #63bfec;
+    
+   }
+   .fila1 td{
+       color: #63bfec;
+       font-weight: bold;
+       text-align: center;
+       
+   }
+   .suits{
+       font-weight: bold;  
+   }
+
+/*========================================================
+--------------------------Windows-----------------------
+=========================================================*/
+.bit_imagens{
+    width: 700px; 
+    margin:40px auto 40px auto;
+   border: 3px solid rgba(0, 0, 0, 0.801);
+    display:block;
+}
+/*========================================================
+--------------------------Linux-----------------------
+=========================================================*/
+
+.ubuntu_img{
+    width: 500px; 
+    margin:40px auto 40px auto;
+ border: 3px solid #63bfec;  
+    display:block;
+}
