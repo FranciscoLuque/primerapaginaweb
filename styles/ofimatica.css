@@ -52,7 +52,7 @@ margin:20px 10px 0px 0px;
 .comparativa{
  border-collapse: collapse;
  width: calc(100% - 40px);
- font-size: 0.9em;
+ font-size: 0.8em;
 }
 .comparativa td{
  color:black;
