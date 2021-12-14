@@ -8,7 +8,7 @@ h1{
 p{
     font-size: 15px;
     margin-left: 20px;
-    padding-right: 350px;
+    padding-right: 300px;
     border-left: 8px solid #63bfec;
     padding-left: 10px; 
 }
@@ -21,10 +21,10 @@ p{
   padding-right: 300px;
 }
 .imagenfondo{
+    float: right;
     border-radius: 15px;
     width: 400px;
-    float: right;
-    margin-right: 130px;
+    margin-right: 100px;
 }
 .div_tipos{
     display: inline-block;
