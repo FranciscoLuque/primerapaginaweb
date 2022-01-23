@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0"  xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <atom:link href="https://franciscoluque.github.io/primerapaginaweb/atom.xml" rel="self" type="application/rss+xml"/>
+     <title>Mi primera página web</title>
+     <link>https://franciscoluque.github.io/primerapaginaweb</link>
+     <description>Definicion de ofimática</description>
+     <category>software/ofimatica/antivirus/instalacion/tutorial/windows/linux/comparativa</category>
+     <copyright>1º ASIR - Francsico Peña Luque</copyright>
+     <image>
+        <title>Mi primera página web</title>
+        <url>https://franciscoluque.github.io/primerapaginaweb/imagens/header_icon.png</url>
+        <link>https://franciscoluque.github.io/primerapaginaweb</link>
+        <height>80</height>
+        <width>80</width>
+     </image>
+     <language>es-es</language>
+     <webMaster>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</webMaster>
+    <item>
+         <title>Ofimática</title>
+         <link>https://franciscoluque.github.io/primerapaginaweb/pages/ofimatica/ofimatica.html</link>
+         <description>Definicion de sofware</description>
+         <category>tutorial/ofimatica/windows/linux</category>
+         <guid>https://franciscoluque.github.io/primerapaginaweb/pages/ofimatica/ofimatica.html</guid>
+     </item>
+    <item>
+        <title>Windows</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/ofimatica/windows.html</link>
+        <description>Office para windows</description>
+        <category>software/ofimatica/instalacion/windows</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/ofimatica/windows.html</guid>
+     </item>
+    <item>
+        <title>Linux</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/ofimatica/linux.html</link>
+        <description>WPS para Linux</description>
+        <category>software/ofimatica/instalacion/linux</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/ofimatica/linux.html</guid>
+     </item>
+    <item>
+        <title>Antivirus</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/antivirus/viruz.html</link>
+        <description>Comparacion antivirus</description>
+        <category>software/antivirus/instalacion/windows/linux/comparativa</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/antivirus/viruz.html</guid>
+     </item>
+    <item>
+        <title>Antivirus Windows</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/antivirus/anti_windows.html</link>
+        <description>Bitdefender para windows</description>
+        <category>software/antivirus/instalacion/windows/linux/comparativa</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/antivirus/anti_windows.html</guid>
+     </item>
+    <item>
+        <title>Antivirus Linux</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/antivirus/anti_linux.html</link>
+        <description>ClamAV para ubuntu</description>
+        <category>software/antivirus/instalacion/linux</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/antivirus/anti_linux.html</guid>
+     </item>
+    <item>
+        <title>Mantenimiento</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/recuperacion/mantenimiento.html</link>
+        <description>Mantenimiento de un pc</description>
+        <category>software/instalacion/windows/linux/comparativa</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/recuperacion/mantenimiento.html</guid>
+     </item>
+    <item>
+        <title>Limpieza de archivos</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/recuperacion/ccleaner.html</link>
+        <description>CCleaner</description>
+        <category>software/instalacion/windows/linux</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/recuperacion/ccleaner.html</guid>
+     </item>
+    <item>
+        <title>Recuperacion</title>
+        <link>https://franciscoluque.github.io/primerapaginaweb/pages/recuperacion/recurve.html</link>
+        <description>Recuperacion de archivos</description>
+        <category>software/instalacion/windows/linux</category>
+        <author>pelufr_aliesma20@iesmedinaazahara.es(Francisco Peña Luque)</author>
+        <guid>https://franciscoluque.github.io/primerapaginaweb/pages/recuperacion/recurve.html</guid>
+    </item>
+</channel>
+</rss>
