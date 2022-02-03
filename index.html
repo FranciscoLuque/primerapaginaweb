@@ -6,34 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Software</title>
     <link rel="stylesheet" href="styles/style.css">
-    <!--=========================Script============================-->
-   <script>
-     function resizeIframe(obj) {
-     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-     }
-    </script>
-   <script>
-      function myFunction(x) {x.classList.toggle("change")} 
-    </script>
-    <script>
-      function submenu() {
-        var x = document.getElementById("submenu");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-      }
-   </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./javascript.js"></script>
   </head>
-   <!--=============================Body==========================-->
+   <!--===============================================================
+     ============================  BODY  =============================
+     =================================================================-->
   <body>
     <div id="page-container">
      <header class="header">
       <div id="headerp1">
         <img id="header_icon" src="imagens/header_icon.png">
         <h1 class="headerh1">Instalaciones de software</h1>
-        <!--                                          ------  IDEA DE BUSCADOR  ------
+        <!--============== IDEA DE BUSCADOR   ============
         <img id="maglass"src="./imagens/maglass.jpg">
         <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Buscar.." title="Type in a category"> -->
         <div id='menuWrapper'>
@@ -55,7 +40,7 @@
 				     </li>
 				     <li><a href="./pages/antivirus/viruz.html" target="iframe_ch">Antivirus</a>
 					      <ul class="sub_ul">
-						       <li><a href="./pages/antivirus/anti_windows.html"  target="iframe_ch">Windows</a></li>
+						       <li><a href="./pages/antivirus/anti_windows.html"  target="iframe_ch" onclick=resizeIframe() >Windows</a></li>
                    <li><a href="./pages/antivirus/anti_linux.html" target="iframe_ch">Linux</a></li>
 					      </ul>
 				     </li>
@@ -70,7 +55,7 @@
     </header>
     <main>
       <div class="allframe">
-        <iframe id="mainframe"name="iframe_ch" scrolling="no" frameborder="0" onload="resizeIframe(this)"src="./pages/home.html" ></iframe> 
+        <iframe id="mainframe"name="iframe_ch" scrolling="no" frameborder="0" onload=resizeIframe(this) src="./pages/home.html" ></iframe> 
       </div>
       </main>
     <div id="aboutme">
