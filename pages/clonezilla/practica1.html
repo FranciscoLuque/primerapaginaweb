@@ -9,12 +9,13 @@
 </head>
 <body>
     <section>
-        <article>
+        <article class="partes">
             <h1>Introducción</h1>
+            <h2>Seleccion de imagen y disco</h2>
             <p>En esta práctica crearemos una imagen de los datos del software base de un equipo y
                 posteriormente realizar la restauración. Realizaremos la creacion y recuperacion de la imagen de manera local.</p>
-            <p> Seguiremos los siguientes pasos para la creaciony restauracion de la imagen.></p>
-            <p>Lo primero sera arrancar el ordenador desde el pendrive  de Clonezilla </p>
+            <p> Seguiremos los siguientes pasos para la creación y restauración de la imagen.></p>
+            <p>Lo primero sera arrancar un ordenador desde el pendrive  de Clonezilla. </p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto1.jpg">
             <p>Una vez en la pantalla principal de Clonezilla seleccionaremos la que mas conveniente, en el caso de la segunda opción nos permitira ejecutar clonezilla en varios dispositivos ya que se ejecuta y guarda en la RAM</p>
@@ -46,7 +47,7 @@
            <p>Aquí seleccionaremos el directorio donde se va aguardar la imagen, en mi caso el disco externos estaba vacío y no poseia directorios.</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto9.jpg">
-            <p>Usaremos el modo principiante "Beginner"</p>z
+            <p>Usaremos el modo principiante "Beginner"</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto10y23.jpg">
             <p>Seleccionaremos "savedisk" que guarda una el disco local como imagen, ya sea el disco completo o una particion, en este caso sera el disco completo.</p>
@@ -79,43 +80,43 @@
             <p>Se nos mostrara el proceso de la copia, esto puede tardar en función del tráfico de la red</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto20.jpg">
-            <p>Por ultimo nos parecera el mensaje de  de apagar, reiniciar y otros apartados que no son importantes en esta practica, le daremos a apagar.</p>
-        </article>
-        <article>
-            <h2>RESTAURACI DE LA IMAGEN</h2>
-           <p>Aquí seleccionaremos el directorio donde se va aguardar la imagen, en mi caso el disco externos estaba vacío y no poseia directorios.</p>
+            <p>Por ultimo nos parecera el mensaje de  de apagar, reiniciar y otros apartados que no son importantes en esta practica, le daremos a apagar "poweroff".</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto21.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+        </article>
+        <article>
+            <h2>RESTAURACIÓN DE LA IMAGEN</h2>
+           <p>Aquí seleccionaremos el directorio donde se va aguardar la imagen, en mi caso el disco externos estaba vacío y no poseia directorios.</p>
             <img class="imagenClonezilla
-            "src="../../imagens/recuperacionlocal/foto22.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            "src="../../imagens/recuperacionlocal/foto9.jpg">
+            <p>Usaremos el modo principiante "Beginner"</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto10y23.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            <p>Seleccionaremos "restoredisk" para la restauración de imágenes</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto24.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            <p>Clonezilla leera las imagenes que tenemos creadas en el disco externo, como solo se encuentra la que hemos creado previamente no habra ningun problema.</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto25.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            <p>Ahora pedirá el disco de destino para restaurar la imagen, tener en cuenta el nombre e identificador del disco, para no restaurar en otro distinto al previsto.</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto26.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            <p>Después preguntara si queremos que verifique la imagen antes de restaurar, en mi caso me salte este paso por temas de tiempo, pero es recomendable aplicar el chequeo</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto16y27.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            <p>Por ultimo nos pedira si queremos que nos deje seleccionar distintas opciones que aporta clonezilla después de la restauración, le daremos "-p reboot"</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto28.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            <p>Primero se realizara una verificacíon en la imagen, en mi caso no llegue a realizar la restauracion por problemas en la red, pero la pantalla es ligeramente alterada. En vez de poner "Starting  to clone device (/dev/sdxz) to image (-)", saldra "Starting to check image(-)"</p>
             <img class="imagenClonezilla
-            "src="../../imagens/recuperacionlocal/foto29y31.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            "src="../../imagens/recuperacionlocal/foto20.jpg">
+            <p>Verficaremos que es el disco y la imagen a restaurar, nos pedira confirmación de si estamos seguros, teclearemos "y" y le daremos a enter</p>
             <img class="imagenClonezilla
             "src="../../imagens/recuperacionlocal/foto30.jpg">
-            <p>Una vez ejecutado le daremos a "Customize" y seleccionaremos las opciones que deseemos</p>
+            <p>Ahora se ejecutara un proceso, os pondra "Starting  to restore image  image (-) to device  (/dev/sdxz)"</p>
             <img class="imagenClonezilla
-            "src="../../imagens/recuperacionlocal/foto29y31.jpg">
+            "src="../../imagens/recuperacionlocal/foto20.jpg">
+            <p>Una vez terminado, el sistema se reiniciara y cargara el sistema operativo con todo aquello que tenia la imagen creada."</p>
         </article>
     </section>
 </body>
