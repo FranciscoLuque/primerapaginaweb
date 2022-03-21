@@ -1,0 +1,50 @@
+body {
+    font-family:"Roboto", sans-serif;
+}
+h1{
+    color: #63bfec;
+    font-size: 18px;
+    margin-top: 0px;
+}
+p{
+    font-size: 16px;
+    margin-left: 55px;
+    padding-right: 50px;
+    border-left: 8px solid #63bfec;
+    padding-left: 10px; 
+}
+h2{
+    font-size: 16px;
+    margin-left: 20px;
+    padding-right: 50px;
+    padding-left: 10px;;
+}
+h3{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-right: 50px;
+    padding-left: 10px;;
+}
+
+/*==============================================
+----------------------Imagenes-------------------
+===============================================*/
+.imagenClonezilla{
+  width: 500px; 
+   margin:40px auto 40px auto;
+  border: 3px solid rgba(0, 0, 0, 0.801);
+  display:block;
+}
+.clonezilla{
+    float:right;
+    width: 300px; 
+    box-shadow: 2px 8px 20px rgb(127, 127, 127);
+    margin-right: 30px;
+}
+ul{
+    margin-left: 40px;
+}
+
+ul li{
+    margin: 10px;
+}
